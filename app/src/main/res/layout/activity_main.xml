@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="NumtoWords Converter"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number here"
+        android:id="@+id/etInput"
+        android:paddingLeft="5dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConvert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/buttondesign"
+            android:padding="10dp"
+            android:text="Convert into Words"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttondesign"
+            android:padding="10dp"
+            android:text="CLEAR"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="3dp"
+        android:text="RESULT: "
+        android:layout_marginBottom="1dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="2dp"
+        android:id="@+id/tvResult"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:text="Your Result is given below"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
